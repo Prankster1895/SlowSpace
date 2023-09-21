@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="age9.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SlowSpace</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="Articles.html">Articles</a></li>
+                            <li><a class="dropdown-item" href="#">Survey</a></li>
+                            <li><a class="dropdown-item" href="#">Research</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Specialized Tests
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Studies</a></li>
+                            <li><a class="dropdown-item" href="#">Career</a></li>
+                            <li><a class="dropdown-item" href="#">Personal Growth</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Login
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">LOG IN TO SLOWSPACE</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Log in</button>
+                        </form>
+                    </div>
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="card">
+        <div class="card-body">
+            Logical Reasoning
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            While introducing kamlesh, vimal said ‘He is the brother-in-law of my father’s wife who is married to
+            nakul’.
+            How is kamlesh related to vimal.
+
+        </div>
+        <ul class="list-group list-group-flush">
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">Father</button>
+                <button type="button" class="btn btn-primary Checker Correct">Uncle</button>
+                <button type="button" class="btn btn-primary CheckerW"> Son</button>
+            </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            All footballers are fit and healthy.
+            All famous sports players are footballers.
+            Given that the above is true, which of the following is the logical deduction?
+
+        </div>
+        <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn btn-primary CheckerW">1. All footballers are famous sports people
+
+            </button>
+            <button type="button" class="btn btn-primary Checker Correct">2.All famous people are fit and
+                healthy</button>
+            <button type="button" class="btn btn-primary CheckerW">3.All famous sports players are fit and
+                healthy</button>
+            <button type="button" class="btn btn-primary CheckerW">4.All football players are men</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            The ‘A’ state government has chalked out a plan for the underdeveloped ‘B’ district where 66% of the funds
+            will be placed in the hands of a committee of local representatives.
+            Courses of action:
+            I. The ‘A’ state government should decide guidelines and norms for the functioning of the committee.
+            II. Other state government may follow similar plan if directed by the Central government.
+
+        </div>
+        <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn btn-primary Checker Correct">A. If only I follows
+            </button>
+            <button type="button" class="btn btn-primary CheckerW"> B. If only II follows</button>
+            <button type="button" class="btn btn-primary CheckerW">C. If either I or II follows</button>
+            <button type="button" class="btn btn-primary CheckerW"> D. If neither I nor II follows</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            Grammar and Communication Skills
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Which sentence uses a gerund correctly?
+        </div>
+        <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn btn-primary Checker Correct"> a. She enjoys to read books.
+            </button>
+            <button type="button" class="btn btn-primary CheckerW">b. He is interested in painting.</button>
+            <button type="button" class="btn btn-primary CheckerW">c. They avoid to eat fast food.</button>
+            <button type="button" class="btn btn-primary CheckerW"> d. We need to finish our homework.</button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            Which sentence has the correct subject-verb agreement?
+        </div>
+        <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+            <button type="button" class="btn btn-primary CheckerW">a.The team are practicing for the
+                tournament.</button>
+            <button type="button" class="btn btn-primary CheckerW">b.The cat and the dog is sleeping.</button>
+            <button type="button" class="btn btn-primary CheckerW">c. Each of the students is responsible for their own
+                work.</button>
+            <button type="button" class="btn btn-primary CheckerW"> d. My family is going on vacation next
+                week.</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            He is famous ___ his exceptional talent.
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">of</button>
+                <button type="button" class="btn btn-primary CheckerW">for</button>
+                <button type="button" class="btn btn-primary Checker GCorrect"> with</button>
+                <button type="button" class="btn btn-primary Checker GCorrect">in</button>
+            </div>
+        </div>
+    </div>
+        <div class="card">
+            <div class="card-body">
+                Mathematics
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                 Consider a three-digit number in which the second digit is four times the first and the last digit is
+                three times a second.
+                Try to figure out the three-digit number.
+            </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">16</button>
+                <button type="button" class="btn btn-primary CheckerW">140</button>
+                <button type="button" class="btn btn-primary Checker GCorrect">141</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                 A series is given with one number missing.
+                 Choose the number which will complete the series—5,13,40,165.  
+            </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">508
+
+                </button>
+                <button type="button" class="btn btn-primary CheckerW">402
+                </button>
+                <button type="button" class="btn btn-primary Checker GCorrect">  408</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                If + means -, - means * , * means /, / means+ , what will come in place of the question mark(?) in the following equation?
+                44 / 120 *5 -2 +10 *2= ?
+                
+            </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">  86
+
+                </button>
+                <button type="button" class="btn btn-primary CheckerW">85
+                </button>
+                <button type="button" class="btn btn-primary Checker GCorrect"> 84</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                General Knowledge
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                What is the term for the total value of goods and services produced by a country in a year? 
+                     </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary Checker GCorrect">GDP[GROSS DOMESTIC PRODUCT] </button>
+                <button type="button" class="btn btn-primary CheckerW">GDP[GENERAL DISHTRIBUTION PRODUCT]</button>
+                <button type="button" class="btn btn-primary CheckerW">WHO</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                How is Chandrayaan 3 different from Chandrayaan 2?
+            </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW">a. Chandrayaan 3 is designed for interplanetary travel.</button>
+                <button type="button" class="btn btn-primary Checker GCorrect">b. Chandrayaan 3 is focused on studying asteroids.</button>
+                <button type="button" class="btn btn-primary CheckerW">c. Chandrayaan 3 is a follow-up mission to further explore the Moon.</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                What is the current population of india [September 2021]
+            </div>
+            <div class="btn-group-vertical Checker" role="group" aria-label="Vertical button group">
+                <button type="button" class="btn btn-primary CheckerW"> 1.the estimated population of India was around 1.39 billion 
+                </button>
+                <button type="button" class="btn btn-primary CheckerW">2.the estimated population of India was around 2 billion </button>
+                <button type="button" class="btn btn-primary Checker GCorrect">3.the estimated population of India was around 1.48 billion </button>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="Test">
+            Submit
+        </button>
+
+        <!-- Button trigger modal -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+<script src="indextest.js"></script>
+
+</html>
