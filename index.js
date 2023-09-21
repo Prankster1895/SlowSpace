@@ -9,12 +9,12 @@ btncounter.forEach((btncounter, index) => {
         if (!btncounter.disabled) {
             // Increment the click count for this radio button
             c++;
-            console.log(c,k,j)
+            console.log(c,k,j,p)
 
 
             // Disable the radio button to prevent further clicks
             btncounter.disabled = true;
-            if((c+k+j)==15){
+            if((c+k+j+p)==15){
             
                 SubmitTest(c,k,j);
             
@@ -44,7 +44,7 @@ btncounterMod.forEach((btncounterMod, index) => {
             // Disable the radio button to prevent further clicks
             btncounterMod.disabled = true;
 
-            if((c+k+j)==15){
+            if((c+k+j+p)==15){
             
                 SubmitTest(c,k,j);
             
@@ -71,7 +71,7 @@ btncounterNot.forEach((btncounterNot, index) => {
             // Disable the radio button to prevent further clicks
             btncounterNot.disabled = true;
 
-            if((c+k+j)==15){
+            if((c+k+j+p)==15){
             
                 SubmitTest(c,k,j);
             
@@ -82,6 +82,31 @@ btncounterNot.forEach((btncounterNot, index) => {
         console.log("Hello");
     
 });
+let p=0;
+const btncount0=document.getElementsByClassName("0")
+const btncounter0=Array.from(btncount0);
+btncounter0.forEach((btncounter0, index) => {
+    btncounter0.addEventListener("click", () => {
+        // Check if the radio button has not been clicked before
+        if (!btncounter0.disabled) {
+            // Increment the click count for this radio button
+            p++;
+
+            // Disable the radio button to prevent further clicks
+            btncounter0.disabled = true;
+
+            if((c+k+j+p)==15){
+            
+                SubmitTest(c,k,j);
+            
+            }
+        }
+    });
+    
+        console.log("Hello");
+    
+});
+
 
 
 function SubmitTest(c,k,j){
