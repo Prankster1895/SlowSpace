@@ -9,7 +9,7 @@
     margin-right:10px;
 
     margin-bottom:10px;
-   
+    
 }
 
 .navbar{
@@ -21,22 +21,24 @@
 
 .title{
     text-align: center;
-    font-size:70px;
-    font-weight: 600;
+    font-size:90px;
+    font-weight: bolder;
     color:#fdfdfe;
-    text-shadow: 0px 0px 5px #0a0a09 ,0px 0px 10px #b393d3,0px 0px 10px #b393d3,0px 0px 20px #b393d3;
+    -webkit-text-stroke:1px black;
+    text-shadow: 5px 5px 8px black;
 }
 body{
 
-   background-image:url('./background.jpg');
-   background-size: cover;
- 
+  background-color:rgb(109, 165, 167)
 }
 
 .card{
-    background-image: url('./row.jpg');
+    background-image: url('./row.png');
     background-size: cover;
-    
+    border:black solid 1px;
+    border-radius: 20px;
+    width:600px;
+    height:450px;
 }
 img{
     margin-top: 15px;
@@ -44,13 +46,35 @@ img{
     position: relative;
     margin-left:130px;
     border:solid 1px black;
+    border-radius: 20px;
 }
 .btn{
+   
+   background-color:cadetblue;  
+   border-color:cadetblue;
+   color:white;
+   border-radius: 10px;
+   text-align: center;
+   font-size: 15pt;
+   transition-duration: 0.4s;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color:white;
+    color:black;
+}
+#login{
+    margin-right:11px;
+}
+#SignUp{
+    margin-right:15px;
+}
+.btn1{
     margin-left:230px;
 }
 .btn-outline-success{
     margin-left: 0;
-
+    
 }
 .button{
     background-color:rgb(65, 65, 241);
@@ -62,4 +86,11 @@ img{
     display:flex;
     justify-content: center;
     
+}
+.card-title{
+    font-size: 17pt;
+    font-weight: bolder;
+}
+.navbar-brand{
+    font-weight: bolder;
 }
