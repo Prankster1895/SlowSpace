@@ -13,7 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <h2><a class="navbar-brand" href="#">SlowSpace</a></h2>
+      <a class="navbar-brand" href="#">SlowSpace</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,8 +21,9 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index2.php">Home</a>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Resources
@@ -34,6 +35,7 @@
 
             </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Specialized Tests
@@ -45,23 +47,25 @@
 
             </ul>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">logout</a>
+          </li>
+
+
+      </div>
         </ul>
         <form class="d-flex" role="search">
+
+
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-success" type="submit">Search</button>
+          <?php session_start(); 
+        echo "welcome  ".$_SESSION['username'];?></div>
 
         </form>
-      </div>
-    </div>
-    <button type="button" id="login" class="btn btn-primary" >
-      Login
-    </button>
-    <button type="button" id="SignUp" class="btn btn-primary" >
-      SignUp
-    </button>
 
-      </div>
     </div>
+
     </div>
   </nav>
   <!-- Button trigger modal -->
@@ -73,31 +77,29 @@
         <div class="card-body">
           <h5 class="card-title">Self-Assesment</h5>
           <p class="card-text">Slowspace provides you the platform to understand your learning capacity.All you need to do is answer simple questions by clickong on the button below</p>
-          <a href="Test.html" class="btn btn-primary btn1">Take Test</a>
+          <a href="Test.html" class="btn btn-primary">Take Test</a>
           <div class="col-auto d-none d-lg-block">
             <img class="bd-placeholder-img" width="200" height="250" src="index1.jpg">
         </div>
         </div>
-        
+
       </div>
     </div>
     <div class="col-sm-6">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">View your results and unlock your true potential.</h5>
-            
-           
-            <p class="card-text">Even if you have been identified as a slow learner, don't worry. Slowspace has your back.Here we provide tailored content based on your needs.</p>
-            <a href="#" class="btn btn-primary btn1">View Results</a>
-            
-            <div class="col-auto d-none d-lg-block">
-              <img class="bd-placeholder-img" width="200" height="250" src="slow1.webp">
-          </div>
-          </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">View your results and unlock your true potential.</h5>
+
+          <a href="#" class="btn btn-primary">View Results</a>
+          <p class="card-text">Even if you have been identified as a slow learner, don't worry. Slowspace has your back.Here we provide tailored content based on your needs.</p>
+          <div class="col-auto d-none d-lg-block">
+            <img class="bd-placeholder-img" width="200" height="250" src="slow1.webp">
         </div>
+        </div>
+      </div>
     </div>
   </div>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>

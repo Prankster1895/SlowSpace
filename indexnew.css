@@ -1,0 +1,74 @@
+.login{
+    margin-right:15px;
+    margin-left:15px;
+
+}
+.row{
+    margin-top:50px;
+    margin-left:10px;
+    margin-right:10px;
+
+    margin-bottom:10px;
+    
+}
+
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom:30px;
+  
+}
+.container{
+    width:2000px;
+}
+.card{
+    border-radius: 20px;
+    height:500px;
+    width:600px;
+    background-image: url('./indexnew.jpg');
+    margin-bottom: 20px;
+}
+body{
+    background-color:antiquewhite;
+}
+.slow{
+    font-weight:bolder;
+}
+.card-title{
+    font-size:27pt;
+    font-weight:bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.card-text{
+    font-size:15pt ;
+}
+img{
+    height:250px;
+    width:300px;
+    margin-left:100px;
+    border-radius: 20px;
+}
+.img2{
+    height:200px;
+}
+.img1{
+    margin-top:20px;
+}
+.btn{
+    
+    background-color:green;  
+    border-color:green;
+    color:white;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13pt;
+    transition-duration: 0.4s;
+    cursor: pointer;
+ }
+ .btn:hover{
+     background-color:white;
+     color:black;
+ }

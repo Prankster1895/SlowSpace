@@ -138,9 +138,26 @@ document.getElementById("TestResults").addEventListener("click", () => {
     modal.show();
 });
 
+age1=document.getElementById("radioNoLabel11")
+age1.addEventListener("click", () => {
 document.getElementById("IQSection").addEventListener("click", () => {
-    window.location.href="IQTest.html";
+    window.location.href="age9.html";
 });
+});
+
+age2=document.getElementById("radioNoLabel12")
+age2.addEventListener("click", () => {
+    document.getElementById("IQSection").addEventListener("click", () => {
+        window.location.href="age12.html";
+    });
+    });
+
+    age3=document.getElementById("radioNoLabel13")
+    age3.addEventListener("click", () => {
+        document.getElementById("IQSection").addEventListener("click", () => {
+            window.location.href="age15.html";
+        });
+        });
 
 
 $('#modal-body').on('show.bs.modal', function (e) {

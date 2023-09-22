@@ -16,6 +16,7 @@
     width: 40rem;
     margin-left: 20rem;
     margin-top: 5rem;
+    background-color: azure;
 }
 
 .Checker{
@@ -32,7 +33,7 @@
     color:black;
 }
 body{
-    background-image: url('./test.png');
+    background-image: url('./test1.png');
    
      background-size: cover;
      background-repeat: no-repeat;
@@ -46,10 +47,34 @@ body{
 }
 .btn{
     margin-bottom: 20px;
-    
-    
+    background-color:azure;
+    color:black;
+
+}
+.btn1{
+    background-color:white;
+    border:black;
+    color:black;
+}
+.btn:hover{
+    background-color:cornflowerblue;
+    color:black;
 }
 .navbar-brand{
     font-weight: 600;
     
+}
+.modal-title
+{
+    font-weight: bolder;
+    font-size:25pt;
+}
+.card-body{
+    font-size: 25pt;
+    font-weight: bolder;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.form-control{
+    height:40px;
 }
