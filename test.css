@@ -1,0 +1,55 @@
+.login{
+    margin-right:15px;
+    margin-left:15px;
+
+}
+.row{
+    margin-top:80px;
+}
+
+.navbar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card{
+    width: 40rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.Checker{
+    --bs-btn-bg: white;
+    --bs-btn-border-color: auto;
+    --bs-btn-hover-bg: rgb(78, 43, 78);
+    color:black;
+}
+
+.CheckerW{
+    --bs-btn-bg: white;
+    --bs-btn-border-color: auto;
+    --bs-btn-hover-bg: rgb(78, 43, 78);
+    color:black;
+}
+body{
+    background-image: url('./test.png');
+   
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+  
+    background-attachment: fixed;
+  
+     height: 300vh;
+
+     image-rendering:pixelated;
+}
+.btn{
+    margin-bottom: 20px;
+    
+    
+}
+.navbar-brand{
+    font-weight: 600;
+    
+}
