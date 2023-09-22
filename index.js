@@ -1,6 +1,17 @@
 let c=0,p=0;
 document.addEventListener("DOMContentLoaded", function () {
 
+    let login=document.getElementById("login");
+    login.addEventListener("click", () => {
+        window.location.href="login.php";
+    });
+
+    let signUp=document.getElementById("SignUp");
+    signUp.addEventListener("click", () => {
+        window.location.href="signup.php";
+    });
+
+
 const btncount=document.getElementsByClassName("Slow")
 const btncounter=Array.from(btncount);
 btncounter.forEach((btncounter, index) => {
